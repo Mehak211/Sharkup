@@ -1,0 +1,107 @@
+.footerWrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    background-color: #262626;
+    color: #ffffff;
+    box-shadow: 1px 1px 10px rgb(179, 179, 179);
+    padding: 12px 0px;
+}
+
+.imageWrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 120px;
+    height: 90px;
+}
+
+.cover{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 100%;
+    min-height: 100%;
+    object-fit: contain;
+}
+
+.footerWrapperOne{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin: 0px 30px;
+}
+
+.footerWrapperTwo{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin: 0px 30px;
+    margin-top: 90px;
+}
+
+.footerWrapperThree{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin: 0px 30px;
+    margin-top: 90px;
+}
+
+.companyContact{
+    display: flex;
+    flex-direction: column;
+    margin-left: 8px;
+}
+
+.companyContact h5{
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.companyContact p{
+    padding: 0;
+    margin: 8px 0px;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.footerWrapperTwo ul{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    list-style-type: none;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+    padding-inline-start: 0;
+}
+
+.footerWrapperTwo ul li{
+    list-style-type: none;
+    font-size: 16px;
+    font-weight: 500;
+    margin: 4px 0px;
+}
+
+.footerWrapperThree button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 14px 10px;
+    background: #ffffff;
+    margin: 8px 0px;
+    border: none;
+    outline: none;
+    width: 90px;
+    border-radius: 8px;
+    box-shadow: 1px 1px 2px lightgray;
+}

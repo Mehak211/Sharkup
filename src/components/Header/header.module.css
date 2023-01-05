@@ -1,0 +1,91 @@
+.headerWrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    background-color: #262626;
+    color: #ffffff;
+    box-shadow: 1px 1px 10px rgb(179, 179, 179);
+    padding-right: 30px;
+}
+
+.imageWrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 120px;
+    height: 90px;
+}
+
+.cover{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 100%;
+    min-height: 100%;
+    object-fit: contain;
+    margin-left: 90px;
+}
+
+.headerContentWrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.headerContent{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style-type: none;
+    color: #3d2f33; 
+}
+
+.headerContent li{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+    font-size: 20px;
+    font-weight: 600; 
+    padding: 10px;
+    cursor: pointer;
+    margin: 0px 8px;
+    transition: all 0.5s;
+}
+
+.headerContent li:hover{  
+    text-decoration:underline;
+    font-size: 22px;
+}
+
+.headerButtonWrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.headerButtonWrapper button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #000000;
+    color: #ffffff;
+    padding: 10px;
+    border: none;
+    outline: none;
+    margin: 0px 8px;
+    border-radius: 10px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.headerButtonWrapper button:hover{
+    background-color: #000000;
+    color: #ffffff;
+    transform: scale(1.2);
+    transition: ease;
+}
+
+

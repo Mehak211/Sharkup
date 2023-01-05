@@ -1,0 +1,107 @@
+.auth-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh !important;
+    background-color: #80e7c3;
+    flex-direction: column;
+    padding: 36px;
+}
+
+.logo-auth {
+    height: 160px;
+    margin-bottom: 40px;
+}
+
+.auth-card {
+    padding: 24px !important;
+    border: 2px solid var(--primary) !important;
+    border-radius: 8px !important;
+    background-color: var(--secondary) !important;
+    color: white;
+}
+
+.auth-form {
+    margin-top: 20px;
+}
+
+.auth-title {
+    font-size: 24px;
+}
+
+.auth-input {
+    /* width: 460px !important; */
+    margin: 1rem;
+  padding: 1rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 0rem;
+  box-shadow: inset 0.01rem 0.01rem 0.02rem #222,
+    inset -0.01rem -0.01rem 0.02rem #222;
+}
+
+.auth-button {
+    margin-top: 20px;
+    background-color: white !important;
+    color: var(--primary) !important;
+    border: 0.5px solid var(--primary) !important;
+}
+
+.auth-bottom-text {
+    margin-top: 20px;
+}
+
+.auth-link {
+    color: white;
+    text-decoration: underline;
+    transition: 0.25s ease-in;
+}
+
+.auth-link:hover {
+    color: white !important;
+}
+.register_main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border:1px solid rgb(228, 228, 228);
+    width:500px;
+    margin-left: auto;
+    margin-right: auto;
+     box-shadow: 0 14px 28px rgba(0, 0, 0, .2), 0 10px 10px rgba(0, 0, 0, .2);
+     margin-top: 20px;
+     margin-bottom: 20px;
+     border-radius: 10px;
+}
+.register_main h3{
+    text-align: center;
+    margin-top: 30px;
+    
+}
+.register_form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width:90%;
+}
+.register_form input{
+    margin-bottom: 20px;
+    width:70%;
+    
+}
+.submit_btn{
+    background-color: rgb(51, 51, 51);
+    color:white;
+    border: none;
+    width:130px!important;
+    padding:5px 10px;
+    border-radius: 5px;
+}
+
+@media screen and (max-width : 476px) {
+    .auth-card, .auth-button, .auth-input {
+        width: 100% !important;
+    }
+}

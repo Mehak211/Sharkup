@@ -1,0 +1,23 @@
+.card_main{
+    height:250px;
+    width:300px;
+    position: relative;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, .2), 0 10px 10px rgba(0, 0, 0, .2);
+    border-radius: 10px;
+    padding-top: 80px;
+    margin-right: 61px;
+    margin-bottom: 100px;
+}
+.card_img{
+    height: 140px;
+    width:140px;
+    border-radius: 50%;
+    position: absolute;
+    top:-70px;
+    left:80px;
+}
+.card_details{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}

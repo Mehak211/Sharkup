@@ -1,0 +1,71 @@
+.investors_main{
+    padding:30px 90px;
+}
+.investors_main h1{
+    margin-bottom: 50px;
+    font-size: 42px;
+    text-align: center;
+}
+.all_cards{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    flex-wrap: wrap;
+}
+.modal_img{
+    height: 140px;
+    width:140px;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.modal_main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.modal_details{
+    padding:20px;
+    width:100%;
+    margin-top: 30px;
+}
+.modal_details p{
+    font-size: 18px;
+}
+.tabs{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width:100%;
+    margin-bottom: 130px;
+    
+}
+.single_tab{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    height: 100px;
+    width:150px;
+    padding:10px;
+     box-shadow: 0 14px 28px rgba(0, 0, 0, .2), 0 10px 10px rgba(0, 0, 0, .2);
+    border-radius: 8px;
+    transition: all 0.5s;
+}
+.single_tab:hover{
+    transform: scale(1.1    );
+}
+.active{
+    background-color: rgb(47, 47, 47);
+    color:white;
+}
+.single_tab p{
+    margin: 0;
+    padding: 0;;
+}
+.tab_icon{
+    font-size: 28px;
+    margin-bottom: 10px;
+}

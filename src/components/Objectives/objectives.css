@@ -1,0 +1,17 @@
+.objective_main{
+text-align: center;
+padding:40px 90px;
+}
+.objective_main h1{
+    font-size: 40px;
+    font-weight: 600;
+    color:rgb(81,40,80);
+}
+.objective_main p{
+    font-size: 16px;
+    text-align: left;
+    margin-bottom: 20px;
+}
+.objective_main img{
+    margin-top: 50px;
+}

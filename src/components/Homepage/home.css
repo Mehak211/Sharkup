@@ -1,0 +1,137 @@
+html, body {
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+.land{
+    height: 90vh;
+    position: relative;
+}
+
+.containerrr h1 {
+  color: #fff;
+  position: relative;
+  position: absolute;
+  left: 50%;
+  top: 20%;
+  transform: translateX(-50%);
+  white-space: nowrap;
+}
+.containerrr h1:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 4px;
+  left: 0;
+  bottom: -8px;
+  background: #fff;
+  transition: 500ms all ease-in-out;
+}
+
+.containerrr a.cta {
+  display: block;
+  position: absolute;
+  height: 50px;
+  line-height: 50px;
+  width: 120px;
+  text-align: center;
+  color: #fff;
+  text-decoration: none;
+  left: 50%;
+  bottom: 20%;
+  transform: translateX(-50%);
+  border: 2px solid #fff;
+  font-size: 0.75em;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+.containerrr a.cta:before {
+  content: "";
+  background: #fff;
+  height: 0;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transition: 300ms all ease-in-out;
+}
+.containerrr a.cta:hover:before {
+  height: 4px;
+}
+
+.containerrr {
+  background: #09f;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.containerrr .one-half {
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  overflow: hidden;
+}
+.containerrr .one-half.left {
+  left: 0;
+  background: url("https://media.istockphoto.com/photos/coin-stacks-and-chart-graphs-on-a-chessboard-picture-id1061369956?k=20&m=1061369956&s=612x612&w=0&h=SjdldhUFY2CsK8OpbzyFPG9OKJKZN6f4Is156R3jiFU=") center center no-repeat;
+  background-size: cover;
+}
+.containerrr .one-half.left:before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 0, 120, 0.5);
+  position: absolute;
+}
+.containerrr .one-half.right {
+  right: 0;
+  background: url("https://images.businessnewsdaily.com/app/uploads/2022/04/04074130/teamwork_g-stockstudio_getty.jpg") center center no-repeat;
+  background-size: cover;
+}
+.containerrr .one-half.right:before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background: rgba(25, 120, 220, 0.5);
+  position: absolute;
+}
+.containerrr .one-half.left, .containerrr .one-half.right {
+  transition: 500ms all ease-in-out;
+}
+.containerrr .one-half.left:before, .containerrr .one-half.right:before {
+  transition: 500ms all ease-in-out;
+}
+.containerrr.left-is-hovered .left {
+  width: 85%;
+}
+.containerrr.left-is-hovered .left h1:after {
+  width: 100%;
+}
+.containerrr.left-is-hovered .right {
+  width: 15%;
+}
+.containerrr.left-is-hovered .right:before {
+  background: rgba(0, 0, 0, 0.65);
+  z-index: 2;
+}
+.containerrr.right-is-hovered .right {
+  width: 85%;
+}
+.containerrr.right-is-hovered .right h1:after {
+  width: 100%;
+}
+.containerrr.right-is-hovered .left {
+  width: 15%;
+}
+.containerrr.right-is-hovered .left:before {
+  background: rgba(0, 0, 0, 0.65);
+  z-index: 2;
+}
